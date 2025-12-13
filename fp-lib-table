@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SensorBoard_ver3.0")(type "KiCad")(uri "${KIPRJMOD}/SensorBoard_ver3.0.pretty")(options "")(descr "センサ基板ver3.0用のライブラリ"))
+)

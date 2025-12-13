@@ -7010,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X130-5N:SOT95P280X130-5N"
+		(property "Footprint" "SensorBoard_ver3.0:MIC5504-3.3YM5-T5"
 			(at 87.63 176.2 0)
 			(effects
 				(font
