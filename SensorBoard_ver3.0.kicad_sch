@@ -4232,7 +4232,7 @@
 	)
 	(rectangle
 		(start 156.845 87.63)
-		(end 180.34 102.87)
+		(end 180.34 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -4292,7 +4292,7 @@
 	)
 	(rectangle
 		(start 104.775 17.78)
-		(end 210.185 104.14)
+		(end 210.185 102.87)
 		(stroke
 			(width 0)
 			(type default)
@@ -4816,12 +4816,6 @@
 		(uuid "de7c784d-8d50-4225-9a45-73ce6c564723")
 	)
 	(junction
-		(at 177.8 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed0df9f4-feb8-4db2-a72c-0fabb9b4e8d2")
-	)
-	(junction
 		(at 50.8 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4915,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 177.8 93.98)
+			(xy 177.8 96.52) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5545,6 +5539,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 69.85) (xy 228.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba39f6c-9f1c-488f-a7f1-a7a5d1face21")
+	)
+	(wire
+		(pts
 			(xy 144.78 40.64) (xy 154.94 40.64)
 		)
 		(stroke
@@ -6085,16 +6089,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 162.56 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e39327-6283-4fe1-976c-256fb939cf5e")
-	)
-	(wire
-		(pts
 			(xy 22.86 91.44) (xy 33.02 91.44)
 		)
 		(stroke
@@ -6125,7 +6119,7 @@
 	)
 	(polyline
 		(pts
-			(xy 241.3 21.59) (xy 241.3 72.39)
+			(xy 241.3 21.59) (xy 241.3 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6424,6 +6418,16 @@
 		)
 		(uuid "4fbab2e3-1013-48ff-a951-52ec196d7bcb")
 	)
+	(label "Add_PB6"
+		(at 218.44 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52a87f27-6143-4529-a752-3f6615f6f001")
+	)
 	(label "RS485_A"
 		(at 62.865 144.78 180)
 		(effects
@@ -6574,7 +6578,7 @@
 		)
 		(uuid "98f1217c-a968-4990-93c4-04543ee27cfb")
 	)
-	(label "LED2"
+	(label "Add_PB6"
 		(at 106.68 71.12 0)
 		(effects
 			(font
@@ -6833,16 +6837,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd6de33b-4ce0-4490-aab5-f20344bbfa57")
-	)
-	(label "LED2"
-		(at 157.48 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe3a29fb-8846-403a-ab23-f86ae7c55e46")
 	)
 	(label "VCPTX"
 		(at 208.28 99.06 180)
@@ -8461,74 +8455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 97.79 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d291920-07b6-4371-a0d9-b6ac2eb4496b")
-		(property "Reference" "R11"
-			(at 166.37 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 166.37 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.37 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6213208-4f76-42e0-8c19-92d93624bd19")
-		)
-		(pin "2"
-			(uuid "3a01e66c-7392-4b89-bb05-8d1bc872ac02")
-		)
-		(instances
-			(project "SensorBoard_ver3.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 49.53 58.42 90)
 		(unit 1)
@@ -9861,82 +9787,6 @@
 			(project ""
 				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 173.99 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cd9fee6-3128-458f-8553-d5659e701ce5")
-		(property "Reference" "D5"
-			(at 173.99 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 173.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a1ff44c-f3c3-4ce8-afb6-17c4f55af394")
-		)
-		(pin "2"
-			(uuid "e07298bf-967a-49e8-8ca2-18ff989ecb94")
-		)
-		(instances
-			(project "SensorBoard_ver3.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12227,7 +12077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 97.79 0)
+		(at 177.8 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12235,7 +12085,7 @@
 		(dnp no)
 		(uuid "f6d81f2b-846c-48e7-bf20-c5e37bd0b0fc")
 		(property "Reference" "#PWR032"
-			(at 177.8 104.14 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 101.092 0)
+			(at 177.8 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 97.79 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 97.79 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 97.79 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12451,7 @@
 	)
 	(sheet
 		(at 228.6 21.59)
-		(size 25.4 50.8)
+		(size 25.4 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12625,7 +12475,7 @@
 			)
 		)
 		(property "Sheetfile" "Connector.kicad_sch"
-			(at 228.6 72.9746 0)
+			(at 228.6 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12753,9 +12603,9 @@
 				(justify left)
 			)
 		)
-		(pin "Limit1" input
+		(pin "Add1" input
 			(at 228.6 64.77 180)
-			(uuid "81751805-a29c-4667-ae44-e73833d189e8")
+			(uuid "5e8e5bd1-834b-4f01-b09d-e6ca735e67dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12763,9 +12613,19 @@
 				(justify left)
 			)
 		)
-		(pin "Limit2" input
+		(pin "Add2" input
 			(at 228.6 67.31 180)
-			(uuid "653eac76-9ab4-4ca2-b88e-7b4e5d8aa7ca")
+			(uuid "a1704cfe-20a2-4736-920c-12229b8e8c73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Add3" input
+			(at 228.6 69.85 180)
+			(uuid "e565bf74-b8d5-45fe-82e4-8fa9d772eaf0")
 			(effects
 				(font
 					(size 1.27 1.27)
