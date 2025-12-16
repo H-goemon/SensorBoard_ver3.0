@@ -4244,7 +4244,7 @@
 	)
 	(rectangle
 		(start 212.09 17.78)
-		(end 275.59 102.87)
+		(end 256.54 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -4593,7 +4593,7 @@
 	)
 	(text "Connector"
 		(exclude_from_sim no)
-		(at 220.98 15.24 0)
+		(at 220.98 16.256 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -6117,17 +6117,6 @@
 		)
 		(uuid "f625d1c4-b30c-4238-acf6-74faf885a027")
 	)
-	(polyline
-		(pts
-			(xy 241.3 21.59) (xy 241.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type dash_dot)
-			(color 132 0 0 1)
-		)
-		(uuid "f62ff91c-e4ff-40f0-8174-7fa4a00f78a5")
-	)
 	(wire
 		(pts
 			(xy 187.96 30.48) (xy 195.58 30.48)
@@ -6188,7 +6177,7 @@
 		)
 		(uuid "fe775977-1ea7-4bb5-84c5-a3d3ad017d44")
 	)
-	(label "EncA_2"
+	(label "EncA_1"
 		(at 110.49 88.9 0)
 		(effects
 			(font
