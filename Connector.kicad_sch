@@ -1257,7 +1257,7 @@
 	)
 	(rectangle
 		(start 177.8 45.72)
-		(end 203.2 72.39)
+		(end 205.74 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -1380,24 +1380,6 @@
 		(uuid "29833cbb-9304-4b68-b7c9-d5973c3d6f25")
 	)
 	(junction
-		(at 199.39 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e7d0ae5-b8c5-4dfa-93b8-a30d9de87703")
-	)
-	(junction
-		(at 199.39 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ddf5b53-92b6-4b68-a579-11de8512ba0f")
-	)
-	(junction
-		(at 199.39 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59186c6a-d1b3-4f67-b03d-7ee7cae2761d")
-	)
-	(junction
 		(at 154.94 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1459,16 +1441,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 62.23) (xy 199.39 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02a56583-a6d2-4bd4-9de8-3bfedfa1fcb6")
-	)
-	(wire
-		(pts
 			(xy 30.48 53.34) (xy 34.29 53.34)
 		)
 		(stroke
@@ -1516,6 +1488,16 @@
 			(type default)
 		)
 		(uuid "0a181237-634b-4a32-b09d-f1b260c30b1f")
+	)
+	(wire
+		(pts
+			(xy 198.12 62.23) (xy 199.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1af86a-5636-4a0b-83ba-4cd382205afd")
 	)
 	(wire
 		(pts
@@ -1656,16 +1638,6 @@
 			(type default)
 		)
 		(uuid "2b38cf5c-f4f6-489e-b60f-bbb9b311f8de")
-	)
-	(wire
-		(pts
-			(xy 198.12 57.15) (xy 199.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b59aa31-126b-4fd4-8f62-4c62857c83ba")
 	)
 	(wire
 		(pts
@@ -1869,16 +1841,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 59.69) (xy 199.39 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5810b553-7181-4670-893c-9193c1c759e2")
-	)
-	(wire
-		(pts
 			(xy 71.12 76.2) (xy 67.31 76.2)
 		)
 		(stroke
@@ -1916,6 +1878,16 @@
 			(type default)
 		)
 		(uuid "5e0eb9a4-462b-4950-9789-cbf31288e3d1")
+	)
+	(wire
+		(pts
+			(xy 198.12 57.15) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e206afb-c41d-4a3c-aecd-1247177d3fda")
 	)
 	(wire
 		(pts
@@ -2279,16 +2251,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 57.15) (xy 199.39 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51c483a-21dd-40a0-b83d-08846eb0a83a")
-	)
-	(wire
-		(pts
 			(xy 34.29 66.04) (xy 34.29 67.31)
 		)
 		(stroke
@@ -2479,6 +2441,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 59.69) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c153c7b9-34e9-4e4a-bea6-fc43ae9aecb3")
+	)
+	(wire
+		(pts
 			(xy 34.29 62.23) (xy 34.29 66.04)
 		)
 		(stroke
@@ -2639,16 +2611,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 62.23) (xy 199.39 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb23cdc1-1c29-4032-a433-ed6ace9969b1")
-	)
-	(wire
-		(pts
 			(xy 30.48 77.47) (xy 30.48 76.2)
 		)
 		(stroke
@@ -2666,16 +2628,6 @@
 			(type default)
 		)
 		(uuid "ecff5561-d4ba-471e-8c05-ceab201a6f79")
-	)
-	(wire
-		(pts
-			(xy 198.12 59.69) (xy 199.39 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3009d5-e869-4042-8a72-414b2093a5de")
 	)
 	(wire
 		(pts
@@ -2902,6 +2854,17 @@
 		)
 		(uuid "a476dda9-7114-49c1-8d2b-86b8886e79fa")
 	)
+	(hierarchical_label "Add1"
+		(shape input)
+		(at 199.39 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b319b7d2-ffd7-4d6c-93a3-227c7775cf3b")
+	)
 	(hierarchical_label "EncA_1"
 		(shape input)
 		(at 77.47 63.5 0)
@@ -2957,6 +2920,17 @@
 		)
 		(uuid "cd6bc116-ef69-47c9-bc41-719ef646f7a4")
 	)
+	(hierarchical_label "Add2"
+		(shape input)
+		(at 199.39 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0b764ad-2bee-4479-b18b-4ea3ef087abe")
+	)
 	(hierarchical_label "RS485_B"
 		(shape input)
 		(at 53.34 102.87 0)
@@ -3000,6 +2974,17 @@
 			(justify left)
 		)
 		(uuid "e98256d9-6fea-4778-be95-48bc3ffb903f")
+	)
+	(hierarchical_label "Add3"
+		(shape input)
+		(at 199.39 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec80874e-ddbd-4440-a35e-4ccc41527d3f")
 	)
 	(hierarchical_label "EncB_0"
 		(shape input)
